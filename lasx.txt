@@ -50,48 +50,48 @@
 0caa8000 xvfcmp.sor.d           XdXjXk
 0cac0000 xvfcmp.cune.d          XdXjXk
 0cac8000 xvfcmp.sune.d          XdXjXk
-0d200000 xvbitsel.v             XdXjXkXa
-0d600000 xvshuf.b               XdXjXkXa
-2c800000 xvld                   XdJSk12
-2cc00000 xvst                   XdJSk12
-32100000 xvldrepl.d             XdJSk9          @orig_fmt=XdJSk9ps3
-32200000 xvldrepl.w             XdJSk10         @orig_fmt=XdJSk10ps2
-32400000 xvldrepl.h             XdJSk11         @orig_fmt=XdJSk11ps1
-32800000 xvldrepl.b             XdJSk12
-33100000 xvstelm.d              XdJSk8Un2       @orig_fmt=XdJSk8ps3Un2
-33200000 xvstelm.w              XdJSk8Un3       @orig_fmt=XdJSk8ps2Un3
-33400000 xvstelm.h              XdJSk8Un4       @orig_fmt=XdJSk8ps1Un4
-33800000 xvstelm.b              XdJSk8Un5
-38480000 xvldx                  XdJK
-384c0000 xvstx                  XdJK
-74000000 xvseq.b                XdXjXk
-74008000 xvseq.h                XdXjXk
-74010000 xvseq.w                XdXjXk
-74018000 xvseq.d                XdXjXk
-74020000 xvsle.b                XdXjXk
-74028000 xvsle.h                XdXjXk
-74030000 xvsle.w                XdXjXk
-74038000 xvsle.d                XdXjXk
-74040000 xvsle.bu               XdXjXk
-74048000 xvsle.hu               XdXjXk
-74050000 xvsle.wu               XdXjXk
-74058000 xvsle.du               XdXjXk
-74060000 xvslt.b                XdXjXk
-74068000 xvslt.h                XdXjXk
-74070000 xvslt.w                XdXjXk
-74078000 xvslt.d                XdXjXk
-74080000 xvslt.bu               XdXjXk
-74088000 xvslt.hu               XdXjXk
-74090000 xvslt.wu               XdXjXk
-74098000 xvslt.du               XdXjXk
-740a0000 xvadd.b                XdXjXk
-740a8000 xvadd.h                XdXjXk
-740b0000 xvadd.w                XdXjXk
-740b8000 xvadd.d                XdXjXk
-740c0000 xvsub.b                XdXjXk
-740c8000 xvsub.h                XdXjXk
-740d0000 xvsub.w                XdXjXk
-740d8000 xvsub.d                XdXjXk
+0d200000 xvbitsel.v             XdXjXkXa        @qemu
+0d600000 xvshuf.b               XdXjXkXa        @qemu
+2c800000 xvld                   XdJSk12         @qemu
+2cc00000 xvst                   XdJSk12         @qemu
+32100000 xvldrepl.d             XdJSk9          @orig_fmt=XdJSk9ps3 @qemu
+32200000 xvldrepl.w             XdJSk10         @orig_fmt=XdJSk10ps2 @qemu
+32400000 xvldrepl.h             XdJSk11         @orig_fmt=XdJSk11ps1 @qemu
+32800000 xvldrepl.b             XdJSk12         @qemu
+33100000 xvstelm.d              XdJSk8Un2       @orig_fmt=XdJSk8ps3Un2 @qemu
+33200000 xvstelm.w              XdJSk8Un3       @orig_fmt=XdJSk8ps2Un3 @qemu
+33400000 xvstelm.h              XdJSk8Un4       @orig_fmt=XdJSk8ps1Un4 @qemu
+33800000 xvstelm.b              XdJSk8Un5       @qemu
+38480000 xvldx                  XdJK            @qemu
+384c0000 xvstx                  XdJK            @qemu
+74000000 xvseq.b                XdXjXk          @qemu
+74008000 xvseq.h                XdXjXk          @qemu
+74010000 xvseq.w                XdXjXk          @qemu
+74018000 xvseq.d                XdXjXk          @qemu
+74020000 xvsle.b                XdXjXk          @qemu
+74028000 xvsle.h                XdXjXk          @qemu
+74030000 xvsle.w                XdXjXk          @qemu
+74038000 xvsle.d                XdXjXk          @qemu
+74040000 xvsle.bu               XdXjXk          @qemu
+74048000 xvsle.hu               XdXjXk          @qemu
+74050000 xvsle.wu               XdXjXk          @qemu
+74058000 xvsle.du               XdXjXk          @qemu
+74060000 xvslt.b                XdXjXk          @qemu
+74068000 xvslt.h                XdXjXk          @qemu
+74070000 xvslt.w                XdXjXk          @qemu
+74078000 xvslt.d                XdXjXk          @qemu
+74080000 xvslt.bu               XdXjXk          @qemu
+74088000 xvslt.hu               XdXjXk          @qemu
+74090000 xvslt.wu               XdXjXk          @qemu
+74098000 xvslt.du               XdXjXk          @qemu
+740a0000 xvadd.b                XdXjXk          @qemu
+740a8000 xvadd.h                XdXjXk          @qemu
+740b0000 xvadd.w                XdXjXk          @qemu
+740b8000 xvadd.d                XdXjXk          @qemu
+740c0000 xvsub.b                XdXjXk          @qemu
+740c8000 xvsub.h                XdXjXk          @qemu
+740d0000 xvsub.w                XdXjXk          @qemu
+740d8000 xvsub.d                XdXjXk          @qemu
 741e0000 xvaddwev.h.b           XdXjXk
 741e8000 xvaddwev.w.h           XdXjXk
 741f0000 xvaddwev.d.w           XdXjXk
@@ -132,22 +132,22 @@
 74408000 xvaddwod.w.hu.h        XdXjXk
 74410000 xvaddwod.d.wu.w        XdXjXk
 74418000 xvaddwod.q.du.d        XdXjXk
-74460000 xvsadd.b               XdXjXk
-74468000 xvsadd.h               XdXjXk
-74470000 xvsadd.w               XdXjXk
-74478000 xvsadd.d               XdXjXk
-74480000 xvssub.b               XdXjXk
-74488000 xvssub.h               XdXjXk
-74490000 xvssub.w               XdXjXk
-74498000 xvssub.d               XdXjXk
-744a0000 xvsadd.bu              XdXjXk
-744a8000 xvsadd.hu              XdXjXk
-744b0000 xvsadd.wu              XdXjXk
-744b8000 xvsadd.du              XdXjXk
-744c0000 xvssub.bu              XdXjXk
-744c8000 xvssub.hu              XdXjXk
-744d0000 xvssub.wu              XdXjXk
-744d8000 xvssub.du              XdXjXk
+74460000 xvsadd.b               XdXjXk          @qemu
+74468000 xvsadd.h               XdXjXk          @qemu
+74470000 xvsadd.w               XdXjXk          @qemu
+74478000 xvsadd.d               XdXjXk          @qemu
+74480000 xvssub.b               XdXjXk          @qemu
+74488000 xvssub.h               XdXjXk          @qemu
+74490000 xvssub.w               XdXjXk          @qemu
+74498000 xvssub.d               XdXjXk          @qemu
+744a0000 xvsadd.bu              XdXjXk          @qemu
+744a8000 xvsadd.hu              XdXjXk          @qemu
+744b0000 xvsadd.wu              XdXjXk          @qemu
+744b8000 xvsadd.du              XdXjXk          @qemu
+744c0000 xvssub.bu              XdXjXk          @qemu
+744c8000 xvssub.hu              XdXjXk          @qemu
+744d0000 xvssub.wu              XdXjXk          @qemu
+744d8000 xvssub.du              XdXjXk          @qemu
 74540000 xvhaddw.h.b            XdXjXk
 74548000 xvhaddw.w.h            XdXjXk
 74550000 xvhaddw.d.w            XdXjXk
@@ -192,26 +192,26 @@
 746a8000 xvavgr.hu              XdXjXk
 746b0000 xvavgr.wu              XdXjXk
 746b8000 xvavgr.du              XdXjXk
-74700000 xvmax.b                XdXjXk
-74708000 xvmax.h                XdXjXk
-74710000 xvmax.w                XdXjXk
-74718000 xvmax.d                XdXjXk
-74720000 xvmin.b                XdXjXk
-74728000 xvmin.h                XdXjXk
-74730000 xvmin.w                XdXjXk
-74738000 xvmin.d                XdXjXk
-74740000 xvmax.bu               XdXjXk
-74748000 xvmax.hu               XdXjXk
-74750000 xvmax.wu               XdXjXk
-74758000 xvmax.du               XdXjXk
-74760000 xvmin.bu               XdXjXk
-74768000 xvmin.hu               XdXjXk
-74770000 xvmin.wu               XdXjXk
-74778000 xvmin.du               XdXjXk
-74840000 xvmul.b                XdXjXk
-74848000 xvmul.h                XdXjXk
-74850000 xvmul.w                XdXjXk
-74858000 xvmul.d                XdXjXk
+74700000 xvmax.b                XdXjXk          @qemu
+74708000 xvmax.h                XdXjXk          @qemu
+74710000 xvmax.w                XdXjXk          @qemu
+74718000 xvmax.d                XdXjXk          @qemu
+74720000 xvmin.b                XdXjXk          @qemu
+74728000 xvmin.h                XdXjXk          @qemu
+74730000 xvmin.w                XdXjXk          @qemu
+74738000 xvmin.d                XdXjXk          @qemu
+74740000 xvmax.bu               XdXjXk          @qemu
+74748000 xvmax.hu               XdXjXk          @qemu
+74750000 xvmax.wu               XdXjXk          @qemu
+74758000 xvmax.du               XdXjXk          @qemu
+74760000 xvmin.bu               XdXjXk          @qemu
+74768000 xvmin.hu               XdXjXk          @qemu
+74770000 xvmin.wu               XdXjXk          @qemu
+74778000 xvmin.du               XdXjXk          @qemu
+74840000 xvmul.b                XdXjXk          @qemu
+74848000 xvmul.h                XdXjXk          @qemu
+74850000 xvmul.w                XdXjXk          @qemu
+74858000 xvmul.d                XdXjXk          @qemu
 74860000 xvmuh.b                XdXjXk
 74868000 xvmuh.h                XdXjXk
 74870000 xvmuh.w                XdXjXk
@@ -292,22 +292,22 @@
 74e68000 xvmod.hu               XdXjXk
 74e70000 xvmod.wu               XdXjXk
 74e78000 xvmod.du               XdXjXk
-74e80000 xvsll.b                XdXjXk
-74e88000 xvsll.h                XdXjXk
-74e90000 xvsll.w                XdXjXk
-74e98000 xvsll.d                XdXjXk
-74ea0000 xvsrl.b                XdXjXk
-74ea8000 xvsrl.h                XdXjXk
-74eb0000 xvsrl.w                XdXjXk
-74eb8000 xvsrl.d                XdXjXk
-74ec0000 xvsra.b                XdXjXk
-74ec8000 xvsra.h                XdXjXk
-74ed0000 xvsra.w                XdXjXk
-74ed8000 xvsra.d                XdXjXk
-74ee0000 xvrotr.b               XdXjXk
-74ee8000 xvrotr.h               XdXjXk
-74ef0000 xvrotr.w               XdXjXk
-74ef8000 xvrotr.d               XdXjXk
+74e80000 xvsll.b                XdXjXk          @qemu
+74e88000 xvsll.h                XdXjXk          @qemu
+74e90000 xvsll.w                XdXjXk          @qemu
+74e98000 xvsll.d                XdXjXk          @qemu
+74ea0000 xvsrl.b                XdXjXk          @qemu
+74ea8000 xvsrl.h                XdXjXk          @qemu
+74eb0000 xvsrl.w                XdXjXk          @qemu
+74eb8000 xvsrl.d                XdXjXk          @qemu
+74ec0000 xvsra.b                XdXjXk          @qemu
+74ec8000 xvsra.h                XdXjXk          @qemu
+74ed0000 xvsra.w                XdXjXk          @qemu
+74ed8000 xvsra.d                XdXjXk          @qemu
+74ee0000 xvrotr.b               XdXjXk          @qemu
+74ee8000 xvrotr.h               XdXjXk          @qemu
+74ef0000 xvrotr.w               XdXjXk          @qemu
+74ef8000 xvrotr.d               XdXjXk          @qemu
 74f00000 xvsrlr.b               XdXjXk
 74f08000 xvsrlr.h               XdXjXk
 74f10000 xvsrlr.w               XdXjXk
@@ -388,16 +388,16 @@
 75208000 xvpickod.h             XdXjXk
 75210000 xvpickod.w             XdXjXk
 75218000 xvpickod.d             XdXjXk
-75220000 xvreplve.b             XdXjK
-75228000 xvreplve.h             XdXjK
-75230000 xvreplve.w             XdXjK
-75238000 xvreplve.d             XdXjK
-75260000 xvand.v                XdXjXk
-75268000 xvor.v                 XdXjXk
-75270000 xvxor.v                XdXjXk
-75278000 xvnor.v                XdXjXk
-75280000 xvandn.v               XdXjXk
-75288000 xvorn.v                XdXjXk
+75220000 xvreplve.b             XdXjK           @qemu
+75228000 xvreplve.h             XdXjK           @qemu
+75230000 xvreplve.w             XdXjK           @qemu
+75238000 xvreplve.d             XdXjK           @qemu
+75260000 xvand.v                XdXjXk          @qemu
+75268000 xvor.v                 XdXjXk          @qemu
+75270000 xvxor.v                XdXjXk          @qemu
+75278000 xvnor.v                XdXjXk          @qemu
+75280000 xvandn.v               XdXjXk          @qemu
+75288000 xvorn.v                XdXjXk          @qemu
 752b0000 xvfrstp.b              XdXjXk
 752b8000 xvfrstp.h              XdXjXk
 752d0000 xvadd.q                XdXjXk
@@ -434,52 +434,52 @@
 757b0000 xvshuf.w               XdXjXk
 757b8000 xvshuf.d               XdXjXk
 757d0000 xvperm.w               XdXjXk
-76800000 xvseqi.b               XdXjSk5
-76808000 xvseqi.h               XdXjSk5
-76810000 xvseqi.w               XdXjSk5
-76818000 xvseqi.d               XdXjSk5
-76820000 xvslei.b               XdXjSk5
-76828000 xvslei.h               XdXjSk5
-76830000 xvslei.w               XdXjSk5
-76838000 xvslei.d               XdXjSk5
-76840000 xvslei.bu              XdXjUk5
-76848000 xvslei.hu              XdXjUk5
-76850000 xvslei.wu              XdXjUk5
-76858000 xvslei.du              XdXjUk5
-76860000 xvslti.b               XdXjSk5
-76868000 xvslti.h               XdXjSk5
-76870000 xvslti.w               XdXjSk5
-76878000 xvslti.d               XdXjSk5
-76880000 xvslti.bu              XdXjUk5
-76888000 xvslti.hu              XdXjUk5
-76890000 xvslti.wu              XdXjUk5
-76898000 xvslti.du              XdXjUk5
-768a0000 xvaddi.bu              XdXjUk5
-768a8000 xvaddi.hu              XdXjUk5
-768b0000 xvaddi.wu              XdXjUk5
-768b8000 xvaddi.du              XdXjUk5
-768c0000 xvsubi.bu              XdXjUk5
-768c8000 xvsubi.hu              XdXjUk5
-768d0000 xvsubi.wu              XdXjUk5
-768d8000 xvsubi.du              XdXjUk5
+76800000 xvseqi.b               XdXjSk5         @qemu
+76808000 xvseqi.h               XdXjSk5         @qemu
+76810000 xvseqi.w               XdXjSk5         @qemu
+76818000 xvseqi.d               XdXjSk5         @qemu
+76820000 xvslei.b               XdXjSk5         @qemu
+76828000 xvslei.h               XdXjSk5         @qemu
+76830000 xvslei.w               XdXjSk5         @qemu
+76838000 xvslei.d               XdXjSk5         @qemu
+76840000 xvslei.bu              XdXjUk5         @qemu
+76848000 xvslei.hu              XdXjUk5         @qemu
+76850000 xvslei.wu              XdXjUk5         @qemu
+76858000 xvslei.du              XdXjUk5         @qemu
+76860000 xvslti.b               XdXjSk5         @qemu
+76868000 xvslti.h               XdXjSk5         @qemu
+76870000 xvslti.w               XdXjSk5         @qemu
+76878000 xvslti.d               XdXjSk5         @qemu
+76880000 xvslti.bu              XdXjUk5         @qemu
+76888000 xvslti.hu              XdXjUk5         @qemu
+76890000 xvslti.wu              XdXjUk5         @qemu
+76898000 xvslti.du              XdXjUk5         @qemu
+768a0000 xvaddi.bu              XdXjUk5         @qemu
+768a8000 xvaddi.hu              XdXjUk5         @qemu
+768b0000 xvaddi.wu              XdXjUk5         @qemu
+768b8000 xvaddi.du              XdXjUk5         @qemu
+768c0000 xvsubi.bu              XdXjUk5         @qemu
+768c8000 xvsubi.hu              XdXjUk5         @qemu
+768d0000 xvsubi.wu              XdXjUk5         @qemu
+768d8000 xvsubi.du              XdXjUk5         @qemu
 768e0000 xvbsll.v               XdXjUk5
 768e8000 xvbsrl.v               XdXjUk5
-76900000 xvmaxi.b               XdXjSk5
-76908000 xvmaxi.h               XdXjSk5
-76910000 xvmaxi.w               XdXjSk5
-76918000 xvmaxi.d               XdXjSk5
-76920000 xvmini.b               XdXjSk5
-76928000 xvmini.h               XdXjSk5
-76930000 xvmini.w               XdXjSk5
-76938000 xvmini.d               XdXjSk5
-76940000 xvmaxi.bu              XdXjUk5
-76948000 xvmaxi.hu              XdXjUk5
-76950000 xvmaxi.wu              XdXjUk5
-76958000 xvmaxi.du              XdXjUk5
-76960000 xvmini.bu              XdXjUk5
-76968000 xvmini.hu              XdXjUk5
-76970000 xvmini.wu              XdXjUk5
-76978000 xvmini.du              XdXjUk5
+76900000 xvmaxi.b               XdXjSk5         @qemu
+76908000 xvmaxi.h               XdXjSk5         @qemu
+76910000 xvmaxi.w               XdXjSk5         @qemu
+76918000 xvmaxi.d               XdXjSk5         @qemu
+76920000 xvmini.b               XdXjSk5         @qemu
+76928000 xvmini.h               XdXjSk5         @qemu
+76930000 xvmini.w               XdXjSk5         @qemu
+76938000 xvmini.d               XdXjSk5         @qemu
+76940000 xvmaxi.bu              XdXjUk5         @qemu
+76948000 xvmaxi.hu              XdXjUk5         @qemu
+76950000 xvmaxi.wu              XdXjUk5         @qemu
+76958000 xvmaxi.du              XdXjUk5         @qemu
+76960000 xvmini.bu              XdXjUk5         @qemu
+76968000 xvmini.hu              XdXjUk5         @qemu
+76970000 xvmini.wu              XdXjUk5         @qemu
+76978000 xvmini.du              XdXjUk5         @qemu
 769a0000 xvfrstpi.b             XdXjUk5
 769a8000 xvfrstpi.h             XdXjUk5
 769c0000 xvclo.b                XdXj
@@ -494,10 +494,10 @@
 769c2400 xvpcnt.h               XdXj
 769c2800 xvpcnt.w               XdXj
 769c2c00 xvpcnt.d               XdXj
-769c3000 xvneg.b                XdXj
-769c3400 xvneg.h                XdXj
-769c3800 xvneg.w                XdXj
-769c3c00 xvneg.d                XdXj
+769c3000 xvneg.b                XdXj            @qemu
+769c3400 xvneg.h                XdXj            @qemu
+769c3800 xvneg.w                XdXj            @qemu
+769c3c00 xvneg.d                XdXj            @qemu
 769c4000 xvmskltz.b             XdXj
 769c4400 xvmskltz.h             XdXj
 769c4800 xvmskltz.w             XdXj
@@ -580,10 +580,10 @@
 769ef400 xvexth.wu.hu           XdXj
 769ef800 xvexth.du.wu           XdXj
 769efc00 xvexth.qu.du           XdXj
-769f0000 xvreplgr2vr.b          XdJ
-769f0400 xvreplgr2vr.h          XdJ
-769f0800 xvreplgr2vr.w          XdJ
-769f0c00 xvreplgr2vr.d          XdJ
+769f0000 xvreplgr2vr.b          XdJ             @qemu
+769f0400 xvreplgr2vr.h          XdJ             @qemu
+769f0800 xvreplgr2vr.w          XdJ             @qemu
+769f0c00 xvreplgr2vr.d          XdJ             @qemu
 769f1000 vext2xv.h.b            XdXj
 769f1400 vext2xv.w.b            XdXj
 769f1800 vext2xv.d.b            XdXj
@@ -596,10 +596,10 @@
 769f3400 vext2xv.wu.hu          XdXj
 769f3800 vext2xv.du.hu          XdXj
 769f3c00 vext2xv.du.wu          XdXj
-76a02000 xvrotri.b              XdXjUk3
-76a04000 xvrotri.h              XdXjUk4
-76a08000 xvrotri.w              XdXjUk5
-76a10000 xvrotri.d              XdXjUk6
+76a02000 xvrotri.b              XdXjUk3        @qemu
+76a04000 xvrotri.h              XdXjUk4        @qemu
+76a08000 xvrotri.w              XdXjUk5        @qemu
+76a10000 xvrotri.d              XdXjUk6        @qemu
 76a42000 xvsrlri.b              XdXjUk3
 76a44000 xvsrlri.h              XdXjUk4
 76a48000 xvsrlri.w              XdXjUk5
@@ -608,25 +608,25 @@
 76a84000 xvsrari.h              XdXjUk4
 76a88000 xvsrari.w              XdXjUk5
 76a90000 xvsrari.d              XdXjUk6
-76ebc000 xvinsgr2vr.w           XdJUk3
-76ebe000 xvinsgr2vr.d           XdJUk2
-76efc000 xvpickve2gr.w          DXjUk3
-76efe000 xvpickve2gr.d          DXjUk2
-76f3c000 xvpickve2gr.wu         DXjUk3
-76f3e000 xvpickve2gr.du         DXjUk2
-76f78000 xvrepl128vei.b         XdXjUk4
-76f7c000 xvrepl128vei.h         XdXjUk3
-76f7e000 xvrepl128vei.w         XdXjUk2
-76f7f000 xvrepl128vei.d         XdXjUk1
+76ebc000 xvinsgr2vr.w           XdJUk3          @qemu
+76ebe000 xvinsgr2vr.d           XdJUk2          @qemu
+76efc000 xvpickve2gr.w          DXjUk3          @qemu
+76efe000 xvpickve2gr.d          DXjUk2          @qemu
+76f3c000 xvpickve2gr.wu         DXjUk3          @qemu
+76f3e000 xvpickve2gr.du         DXjUk2          @qemu
+76f78000 xvrepl128vei.b         XdXjUk4         @qemu
+76f7c000 xvrepl128vei.h         XdXjUk3         @qemu
+76f7e000 xvrepl128vei.w         XdXjUk2         @qemu
+76f7f000 xvrepl128vei.d         XdXjUk1         @qemu
 76ffc000 xvinsve0.w             XdXjUk3
 76ffe000 xvinsve0.d             XdXjUk2
 7703c000 xvpickve.w             XdXjUk3
 7703e000 xvpickve.d             XdXjUk2
-77070000 xvreplve0.b            XdXj
-77078000 xvreplve0.h            XdXj
-7707c000 xvreplve0.w            XdXj
-7707e000 xvreplve0.d            XdXj
-7707f000 xvreplve0.q            XdXj
+77070000 xvreplve0.b            XdXj            @qemu
+77078000 xvreplve0.h            XdXj            @qemu
+7707c000 xvreplve0.w            XdXj            @qemu
+7707e000 xvreplve0.d            XdXj            @qemu
+7707f000 xvreplve0.q            XdXj            @qemu
 77082000 xvsllwil.h.b           XdXjUk3
 77084000 xvsllwil.w.h           XdXjUk4
 77088000 xvsllwil.d.w           XdXjUk5
@@ -635,18 +635,18 @@
 770c4000 xvsllwil.wu.hu         XdXjUk4
 770c8000 xvsllwil.du.wu         XdXjUk5
 770d0000 xvextl.qu.du           XdXj
-77102000 xvbitclri.b            XdXjUk3
-77104000 xvbitclri.h            XdXjUk4
-77108000 xvbitclri.w            XdXjUk5
-77110000 xvbitclri.d            XdXjUk6
-77142000 xvbitseti.b            XdXjUk3
-77144000 xvbitseti.h            XdXjUk4
-77148000 xvbitseti.w            XdXjUk5
-77150000 xvbitseti.d            XdXjUk6
-77182000 xvbitrevi.b            XdXjUk3
-77184000 xvbitrevi.h            XdXjUk4
-77188000 xvbitrevi.w            XdXjUk5
-77190000 xvbitrevi.d            XdXjUk6
+77102000 xvbitclri.b            XdXjUk3         @qemu
+77104000 xvbitclri.h            XdXjUk4         @qemu
+77108000 xvbitclri.w            XdXjUk5         @qemu
+77110000 xvbitclri.d            XdXjUk6         @qemu
+77142000 xvbitseti.b            XdXjUk3         @qemu
+77144000 xvbitseti.h            XdXjUk4         @qemu
+77148000 xvbitseti.w            XdXjUk5         @qemu
+77150000 xvbitseti.d            XdXjUk6         @qemu
+77182000 xvbitrevi.b            XdXjUk3         @qemu
+77184000 xvbitrevi.h            XdXjUk4         @qemu
+77188000 xvbitrevi.w            XdXjUk5         @qemu
+77190000 xvbitrevi.d            XdXjUk6         @qemu
 77242000 xvsat.b                XdXjUk3
 77244000 xvsat.h                XdXjUk4
 77248000 xvsat.w                XdXjUk5
@@ -655,18 +655,18 @@
 77284000 xvsat.hu               XdXjUk4
 77288000 xvsat.wu               XdXjUk5
 77290000 xvsat.du               XdXjUk6
-772c2000 xvslli.b               XdXjUk3
-772c4000 xvslli.h               XdXjUk4
-772c8000 xvslli.w               XdXjUk5
-772d0000 xvslli.d               XdXjUk6
-77302000 xvsrli.b               XdXjUk3
-77304000 xvsrli.h               XdXjUk4
-77308000 xvsrli.w               XdXjUk5
-77310000 xvsrli.d               XdXjUk6
-77342000 xvsrai.b               XdXjUk3
-77344000 xvsrai.h               XdXjUk4
-77348000 xvsrai.w               XdXjUk5
-77350000 xvsrai.d               XdXjUk6
+772c2000 xvslli.b               XdXjUk3         @qemu
+772c4000 xvslli.h               XdXjUk4         @qemu
+772c8000 xvslli.w               XdXjUk5         @qemu
+772d0000 xvslli.d               XdXjUk6         @qemu
+77302000 xvsrli.b               XdXjUk3         @qemu
+77304000 xvsrli.h               XdXjUk4         @qemu
+77308000 xvsrli.w               XdXjUk5         @qemu
+77310000 xvsrli.d               XdXjUk6         @qemu
+77342000 xvsrai.b               XdXjUk3         @qemu
+77344000 xvsrai.h               XdXjUk4         @qemu
+77348000 xvsrai.w               XdXjUk5         @qemu
+77350000 xvsrai.d               XdXjUk6         @qemu
 77404000 xvsrlni.b.h            XdXjUk4
 77408000 xvsrlni.h.w            XdXjUk5
 77410000 xvsrlni.w.d            XdXjUk6
@@ -723,12 +723,12 @@
 77940000 xvshuf4i.h             XdXjUk8
 77980000 xvshuf4i.w             XdXjUk8
 779c0000 xvshuf4i.d             XdXjUk8
-77c40000 xvbitseli.b            XdXjUk8
-77d00000 xvandi.b               XdXjUk8
-77d40000 xvori.b                XdXjUk8
-77d80000 xvxori.b               XdXjUk8
-77dc0000 xvnori.b               XdXjUk8
-77e00000 xvldi                  XdSj13
+77c40000 xvbitseli.b            XdXjUk8         @qemu
+77d00000 xvandi.b               XdXjUk8         @qemu
+77d40000 xvori.b                XdXjUk8         @qemu
+77d80000 xvxori.b               XdXjUk8         @qemu
+77dc0000 xvnori.b               XdXjUk8         @qemu
+77e00000 xvldi                  XdSj13          @qemu
 77e40000 xvpermi.w              XdXjUk8
 77e80000 xvpermi.d              XdXjUk8
 77ec0000 xvpermi.q              XdXjUk8

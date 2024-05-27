@@ -61,7 +61,7 @@
 0c1a8000 fcmp.sor.s             CdFjFk
 0c1c0000 fcmp.cune.s            CdFjFk
 0c1c8000 fcmp.sune.s            CdFjFk
-2b000000 fld.s                  FdJSk12
-2b400000 fst.s                  FdJSk12
-38300000 fldx.s                 FdJK
-38380000 fstx.s                 FdJK
+2b000000 fld.s                  FdJSk12         @qemu
+2b400000 fst.s                  FdJSk12         @qemu
+38300000 fldx.s                 FdJK            @qemu
+38380000 fstx.s                 FdJK            @qemu
