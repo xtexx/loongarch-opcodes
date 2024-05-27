@@ -365,14 +365,14 @@ func emitFmtEncoderFn(ectx *common.EmitterCtx, f *common.InsnFormat) {
 
 		switch a.Kind {
 		case common.ArgKindIntReg,
-			common.ArgKindFPReg,
 			common.ArgKindFCCReg,
 			common.ArgKindScratchReg:
 			// 0 <= x <= max
 			max := (1 << a.TotalWidth()) - 1
 			ectx.Emit("%s >= 0 && %s <= 0x%x", varName, varName, max)
 
-		case common.ArgKindVReg,
+		case common.ArgKindFPReg,
+			common.ArgKindVReg,
 			common.ArgKindXReg:
 			// 32 <= x <= 32 + max
 			max := (1 << a.TotalWidth()) - 1
@@ -409,7 +409,8 @@ func emitFmtEncoderFn(ectx *common.EmitterCtx, f *common.InsnFormat) {
 			} else {
 				// and pass through everything else
 				switch a.Kind {
-				case common.ArgKindVReg,
+				case common.ArgKindFPReg,
+					common.ArgKindVReg,
 					common.ArgKindXReg:
 					// recover vector register index
 					mask := (1 << a.TotalWidth()) - 1
