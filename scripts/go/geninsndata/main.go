@@ -176,6 +176,9 @@ func emitInsnFormatArityFn(
 	ectx.Emit("\tswitch f {\n")
 	for arity := 0; arity < 5; arity++ {
 		cases := arityMap[arity]
+		if len(cases) == 0 {
+			continue
+		}
 
 		ectx.Emit("\tcase ")
 		for i, f := range cases {
