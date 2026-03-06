@@ -482,6 +482,7 @@
 76978000 xvmini.du              XdXjUk5         @qemu
 769a0000 xvfrstpi.b             XdXjUk5
 769a8000 xvfrstpi.h             XdXjUk5
+769b8000 xvmepatmsk.v           XdUj5Uk5
 769c0000 xvclo.b                XdXj
 769c0400 xvclo.h                XdXj
 769c0800 xvclo.w                XdXj

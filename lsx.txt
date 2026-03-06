@@ -481,6 +481,7 @@
 72978000 vmini.du               VdVjUk5         @qemu
 729a0000 vfrstpi.b              VdVjUk5
 729a8000 vfrstpi.h              VdVjUk5
+729b8000 vmepatmsk.v            VdUj5Uk5
 729c0000 vclo.b                 VdVj
 729c0400 vclo.h                 VdVj
 729c0800 vclo.w                 VdVj
